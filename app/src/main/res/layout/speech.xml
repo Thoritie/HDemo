@@ -10,6 +10,8 @@
     tools:context=".MainActivity" >
 
 
+
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -23,10 +25,37 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="204dp"
         android:text="This is Speech Page" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/txvResult"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="100dp"-->
+        <!--android:textColor="#000"-->
+        <!--android:textSize="26sp"-->
+        <!--android:textStyle="normal"/>-->
+
+    <ListView
+        android:id="@+id/listSay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1" >
+    </ListView>
+
+    <Button
+        android:id="@+id/btnSpeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:onClick="getSpeechInput"
+        android:text="Speak" />
 
 
 </RelativeLayout>
