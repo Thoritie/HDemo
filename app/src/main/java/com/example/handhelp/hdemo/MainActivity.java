@@ -14,6 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+
 import android.widget.Button;
 
 
@@ -87,8 +88,9 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
 
-            Intent intent = new Intent(MainActivity.this,SignActivity.class);
-            startActivity(intent);
+          Intent intent = new Intent(MainActivity.this,SignActivity.class);
+          startActivity(intent);
+
 
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
@@ -104,7 +106,8 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    //This Function is old function i test
+
+        //This Function is old function i test
 
 //    public void NextPageSpeech  (View view){
 //        Button btn_next =(Button)findViewById(R.id.button2);
