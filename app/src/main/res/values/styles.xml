@@ -6,9 +6,6 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="SkyBlue">@color/SkyBlue</item>
-        <item name="LightPink">@color/LightPink</item>
-        <item name="MediumVioletRed">@color/MediumVioletRed</item>
 
 
     </style>
