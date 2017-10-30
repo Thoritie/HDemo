@@ -5,4 +5,14 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="title_slide1">Communication</string>
+    <string name="desc_slide1">will start without barrier</string>
+    <string name="title_slide2">World without obstacles</string>
+    <string name="desc_slide2">It will  keep you updated and get inform each other</string>
+    <string name="title_slide3">Innovation</string>
+    <string name="desc_slide3">technology is all about humanity</string>
 </resources>

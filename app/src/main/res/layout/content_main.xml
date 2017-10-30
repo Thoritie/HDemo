@@ -28,6 +28,7 @@
         android:layout_width="146dp"
         android:layout_height="69dp"
         android:text="Overview"
+        android:onClick="getOver"
         android:padding="10dp"
         android:background="@drawable/button_rounded"
         tools:layout_editor_absoluteX="119dp"

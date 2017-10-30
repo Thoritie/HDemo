@@ -6,4 +6,16 @@
     <color name="colorOver1">#009688</color>
     <color name="text_color">#ffffff</color>
 
+    <!-- Screens background -->
+    <color name="bg_screen1">#b2d7cb</color>
+    <color name="bg_screen2">#c2d6b4</color>
+    <color name="bg_screen3">#5b6b4c</color>
+
+    <!-- dots active colors -->
+    <color name="dot_active">#000000</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive">#cccccc</color>
+
 </resources>

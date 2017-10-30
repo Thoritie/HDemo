@@ -107,6 +107,13 @@ public class MainActivity extends AppCompatActivity
     }
 
 
+    public void getOver  (View view){
+        Button button3 =(Button)findViewById(R.id.button);
+        Intent intent = new Intent(MainActivity.this,IntroActivity.class);
+        startActivity(intent);
+    }
+
+
         //This Function is old function i test
 
 //    public void NextPageSpeech  (View view){

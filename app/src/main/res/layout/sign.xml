@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.example.handhelp.hdemo.SignActivity"
+    android:background="@drawable/so">
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="This is Sign"
-        android:textSize="24dp"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" />
+
+   <Button
+       android:id="@+id/btnCamera"
+       android:layout_weight="1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@android:color/holo_red_dark"
+       android:textColor="@android:color/white"
+       android:text="Open Camera"/>
 
     <Button
         android:id="@+id/button2"
@@ -23,13 +38,6 @@
         android:onClick="BackPageSign"
         android:text="Back" />
 
-    <Button
-        android:id="@+id/button_callcamera"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="18dp"
-        android:text="get photo" />
 
-</RelativeLayout>
+
+</LinearLayout>
